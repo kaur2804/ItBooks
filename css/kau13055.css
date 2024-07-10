@@ -1,0 +1,60 @@
+/* Style for header */
+.header-style{
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 0.5px;
+    width: 100%;
+    font-size: 30px;
+}
+
+/* Style for horizontal lines */
+hr {
+    border: 2px solid #ccc;
+}
+
+h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+/* Style for footer */
+ 
+
+/* Style for content section */
+#content {  
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    font-size: 30px; 
+}
+
+/* Style for figure */
+figure {
+    text-align: center;
+    margin: 5px;
+}
+
+/* Style for image within figure */
+figure img {
+    border: 1px solid #ccc;
+    max-width: 220px;
+    height: 220px;
+    margin-top: 0px;;
+    margin:25px;
+    margin-left: 40px;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+}
+
+/* Style for cluster links */
+figcaption a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
+/* Hover effect for cluster links */
+figcaption a:hover {
+    color: #e74c3c;
+}
